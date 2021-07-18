@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Row, Col } from 'reactstrap';
 import mecircle from '../assets/images/mecircle.png';
 
 class Landing extends Component {
     render() {
         return(
+          <React.Fragment>
             <div style={{width: '100%', margin: 'auto'}}>
-                <Grid className="landing-grid">
-                    <Cell col={12}>
+                <Row className="landing-grid">
+                    <Col col={12}>
                         <img 
                         src={mecircle}
                         alt="lakita gaither"
@@ -43,10 +44,55 @@ class Landing extends Component {
                                 */}
                             </div>
                         </div>
-                    </Cell>
-                </Grid>
+                    </Col>
+                </Row>
             </div>
+            </React.Fragment>
         );
     }
 }
 export default Landing;
+/*
+class App extends Component {
+    constructor(props) {
+      super(props);
+  
+      this.toggle = this.toggle.bind(this);
+      this.state = {
+        isOpen: false,
+      };
+    }
+    toggle() {
+      this.setState({
+        isOpen: !this.state.isOpen,
+      });
+    }
+    render() {
+      return (
+        <div>
+        <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">Lakita Gaither</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink to="/resume">Resume</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/aboutme">About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/projects">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/contact">Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+  
+      );
+    }
+  }
+  */

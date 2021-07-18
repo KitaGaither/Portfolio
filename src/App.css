@@ -1,29 +1,13 @@
 .header-color {
-  background: #fc00ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #00dbde,
-    #fc00ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #00dbde,
-    #fc00ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #fc00ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #00dbde,
-    #fc00ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #00dbde,
-    #fc00ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -39,7 +23,7 @@
 
 .banner-text {
   background-color: black;
-  opacity: 0.8;
+  opacity: .8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -63,6 +47,7 @@
   font-size: 20px;
   padding: 1em;
 }
+
 
 .social-links {
   display: flex;
@@ -113,6 +98,7 @@
   border-top: 5px dotted rainbow;
   width: 50%;
   margin: auto;
+
 }
 
 .contact-list i {
@@ -122,7 +108,7 @@
 }
 
 .resume-right-col {
-  background: #8539b1;
+  background: #8539B1;
   color: white;
   padding: 2em;
 }
@@ -136,6 +122,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  
+}
+
+.about-me h1 {
+
 }
 
 .avatar-image2 {
@@ -151,29 +142,4 @@
 .about-avatar {
   height: 50%;
   margin-bottom: 50px;
-}
-
-.project-cards {
-  margin: 50px;
-  box-shadow: 5px 5px grey;
-}
-
-.card-deck {
-  margin-left: 30px;
-  margin-right: 30px;
-
-}
-
-.card-button {
-  background: #fc00ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #00dbde,
-    #fc00ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #00dbde,
-    #fc00ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

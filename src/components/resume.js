@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'reactstrap';
+import { Grid, Cell } from 'react-mdl';
 import me from '../assets/images/me.png';
 import Education from '../components/education';
 import Experience from '../components/experience';
@@ -9,8 +9,8 @@ class Resume extends Component {
     render() {
         return(
             <div>
-                <Row>
-                    <Col col={4}>
+                <Grid>
+                    <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
                             src={me}
@@ -33,10 +33,10 @@ class Resume extends Component {
                         <h5>Web</h5>
                         <p>lakitagaither.com</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                    </Col>
+                    </Cell>
 
 
-                    <Col className="resume-right-col" col={8}>
+                    <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
                         <Education
                         startYear={2017}
@@ -87,8 +87,8 @@ class Resume extends Component {
                         progress="10"
                         />
                         
-                    </Col>
-                </Row>
+                    </Cell>
+                </Grid>
             </div>
         );
     }
