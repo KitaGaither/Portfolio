@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Row, Col } from 'reactstrap';
 import mecircle from '../assets/images/mecircle.png';
 
 class Landing extends Component {
     render() {
         return(
             <div style={{width: '100%', margin: 'auto'}}>
-                <Grid className="landing-grid">
-                    <Cell col={12}>
+                <Row className="landing-grid">
+                    <Col col={12}>
                         <img 
                         src={mecircle}
                         alt="lakita gaither"
@@ -43,8 +43,8 @@ class Landing extends Component {
                                 */}
                             </div>
                         </div>
-                    </Cell>
-                </Grid>
+                    </Col>
+                </Row>
             </div>
         );
     }
